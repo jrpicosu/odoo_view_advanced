@@ -48,6 +48,25 @@
             <field name="target">new</field>
         </record>
 
+        <record id="res_partner_kanban_sales_view" model="ir.ui.view">
+            <field name="name">res.partner.kanban.sales.view</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@class='oe_kanban_details']/ul/li[last()]" position="after">
+                    <li>
+                        <field name="phone"/>
+                    </li>
+                </xpath>
+            </field>
+<!--            <field name="inherit_id" ref="base.res_partner_kanban_view"/>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <xpath expr="//div[@class='oe_kanban_partner_links']/ul/li[last()]" position="attributes">-->
+<!--                    -->
+<!--                </xpath>-->
+<!--            </field>-->
+        </record>
+
         <!-- Menú item superior -->
         <menuitem name="Vistas avanzado" id="odoo_view_advanced.menu_root"/>
 

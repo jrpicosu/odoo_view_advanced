@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3166351-152a-45fa-abb7-00977fcb3074" name="Default Changelist" comment="Prueba solución carpeta &quot;venv&quot;">
-      <change afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/static/src/xml/button.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/templates.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/views.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../odoo_13/odoo-bin" />
-      <option name="PARAMETERS" value="-c $PROJECT_DIR$/conf/odoo.cfg -u odoo_view_advanced,botones_barra_superior" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/conf/odoo.cfg -u odoo_view_advanced" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
