@@ -27,11 +27,12 @@
             <field name="arch" type="xml">
                 <form>
                     <group>
-                        <field name = "upload_file" filename="file_name"/>
+                        <field name="upload_file" filename="file_name"/>
                         <field name="file_name" invisible="1"/>
                     </group>
                     <footer>
-                        <button name="import_file" string="Importar fichero" class="oe_right oe_highlight" type="object"/>
+                        <button name="import_file" string="Importar fichero" class="oe_right oe_highlight"
+                                type="object"/>
                         <button special="cancel" string="Cancelar" class="oe_right"/>
                     </footer>
                 </form>
@@ -54,17 +55,11 @@
             <field name="inherit_id" ref="base.res_partner_kanban_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[@class='oe_kanban_details']/ul/li[last()]" position="after">
-                    <li>
+                    <li class="text-danger font-weight-bold">
                         <field name="phone"/>
                     </li>
                 </xpath>
             </field>
-<!--            <field name="inherit_id" ref="base.res_partner_kanban_view"/>-->
-<!--            <field name="arch" type="xml">-->
-<!--                <xpath expr="//div[@class='oe_kanban_partner_links']/ul/li[last()]" position="attributes">-->
-<!--                    -->
-<!--                </xpath>-->
-<!--            </field>-->
         </record>
 
         <!-- Menú item superior -->

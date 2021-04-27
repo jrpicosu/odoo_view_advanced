@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3166351-152a-45fa-abb7-00977fcb3074" name="Default Changelist" comment="Prueba solución carpeta &quot;venv&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/custom/odoo_view_advanced/views/views.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
